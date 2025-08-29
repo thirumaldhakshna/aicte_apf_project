@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Functional Molecular Material Database</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            background-color: #f9f9f9;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        .content{
+            background-color: #fff;
+            width: 70%;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+        }
+        .title{
+            text-align: left;
+            padding: 0px 20px;
+        }
+        .video{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+        }
+        .video .description{
+            padding: 9px 50px;
+            
+            text-wrap: wrap;
+            width: 35%;
+        }
+        .video .note{
+            font-size: 10px;
+        }
+        span{
+            font-family: monospace;
+        }
+        iframe{
+            border: 1px solid;
+            width: 560px;
+            height:315px;
+        }
+        @media screen and (max-width:1000px){
+            .container{
+                height: auto;
+            }
+            .content{
+                width: 100%;
+                background-color: #f9f9f9;
+                border: none;
+            }
+            iframe{
+                width: 100%;
+                height: auto;
+            }
+            .video{
+                flex-wrap: wrap;
+                margin: 10px;
+            }
+            .video .description{
+                width: 100%;
+                padding: 0px;
+                text-align: justify;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="title">
+                <h1>The Functional Molecular Material Database</h1>
+            </div>
+            <div class="video">
+                <div class="video-content">
+                    <iframe src="https://1drv.ms/v/c/5d67718cccf55d05/IQSDyYm7SrdgS62i-kl6W9tlAci0ZPRRb9EiYOMheZBBdsI?vq=hd1080" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="description">
+                    <p>The Functional Molecular Material Database is an open-source, cloud-based platform that leverages AI and electronic structure systems to accelerate molecular materials research with high-throughput visualization and advanced property prediction. It empowers researchers, educators, and students to collaboratively design, analyze, and share molecular data in a secure, accessible ecosystem. <br>For more details contact on: <a href="mailto:madanavenkatesh.set2023@dsuniversity.edu.in">Madana Venkatesh</a> or <a href="malilto:thirumald.set2023@dsuniversity.edu.in">Thirumal D</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
